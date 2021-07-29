@@ -1,0 +1,4 @@
+1)
+GridSearchCV after PCAParameters: {'alpha': 1, 'colsample_bytree': 0.5, 'gamma': 2, 'learning_rate': 0.1, 'max_depth': 5, 'min_child_weight': 1, 'n_estimators': 150}Score: 0.6404761904761904Training Accuracy: 84.92%Test Accuracy: 54.39%0.5549242424242424
+2)
+GridSearchCV after PCAParameters: {'alpha': 1, 'colsample_bytree': 0.8, 'gamma': 2, 'learning_rate': 0.3, 'max_depth': 3, 'min_child_weight': 3, 'n_estimators': 500}Score: 0.6085714285714285Training Accuracy: 79.33%Test Accuracy: 49.12%0.5037878787878788

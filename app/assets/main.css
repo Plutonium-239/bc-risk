@@ -1,0 +1,20 @@
+:root {
+	--primary: #ff84ac;
+}
+
+.nav {
+	justify-content: space-evenly;
+}
+
+.tab-pane {
+	padding-top: 3em;
+	text-align: center;
+}
+
+h1 {
+	text-align: center;
+}
+
+.nav-tabs .nav-link.active, .nav-tabs .nav-item.show .nav-link {
+	border-color: var(--primary) var(--primary) transparent;
+}
