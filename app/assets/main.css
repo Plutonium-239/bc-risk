@@ -1,5 +1,5 @@
 :root {
-	--primary: #ff84ac;
+	--primary: #ff84ac !important;
 }
 
 .nav {
@@ -11,10 +11,79 @@
 	text-align: center;
 }
 
-h1 {
+.footer a {
+	color:  lightpink;
+}
+
+.footer a:hover {
+	color: hotpink;
+}
+
+h1, h3 {
 	text-align: center;
 }
 
 .nav-tabs .nav-link.active, .nav-tabs .nav-item.show .nav-link {
 	border-color: var(--primary) var(--primary) transparent;
+}
+
+.table-outer {
+	padding: 3em;
+}
+
+input.input-active.unfocused.dash-cell-value {
+	color: #ff84ac !important;
+}
+
+.dash-table-container .dash-spreadsheet-container .dash-spreadsheet-inner table {
+	--hover: #ff69b477 !important;
+}
+
+/*html, body {
+	height: 100%;
+}
+
+body {
+	display: flex;
+	flex-direction: column;
+}
+
+.container-fluid {
+	flex: 1 0 auto;
+}
+
+.footer {
+	flex-shrink: 0;
+}*/
+
+html {
+    position: relative;
+    min-height: 100%;
+}
+
+body {
+    margin: 0 0 100px;
+    /* bottom = footer height */
+    /*padding: 25px;*/
+}
+
+.footer {
+	font-size: large;
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    height: 100px;
+    width: 100%;
+    overflow: hidden;
+}
+.dropdown-item:hover {
+	background-color: var(--primary);
+}
+.btn {
+	background-color: var(--primary);
+	border: 2px solid var(--primary);
+}
+.btn:hover {
+	background-color: #ff226a;
+	border: 2px dashed #ff84ac;
 }
