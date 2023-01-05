@@ -7,6 +7,6 @@ The preprocessing code is in the [`/preproc`](/preproc) folder, using different 
 
 The plots are in the [`/plots`](/plots) folder. Used [`plotly`](https://plotly.com/python/) and the `matplotlib.pyplot` library.
 
-The calculator web-app was built using Dash and is available at [website](), and the code is in the [`/app`](/app) folder.
+The calculator web-app was built using Dash and is available at [website](https://bcampred.team1719.repl.co/), and the code is in the [`/app`](/app) folder.
 
 This project is licensed under the [**CC BY-SA** license](https://creativecommons.org/licenses/by-sa/4.0/).
